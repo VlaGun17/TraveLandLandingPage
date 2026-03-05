@@ -47,8 +47,7 @@ $max-width: 1200px;
       opacity: 0.9;
     }
 
-    &-right-button a, 
-    .header-bottom-button a {
+    &-right-button a{
       background-color: $primary-color;
       color: $text-white;
       text-decoration: none;
@@ -87,6 +86,20 @@ $max-width: 1200px;
       margin-bottom: 40px;
       opacity: 0.8;
     }
+    
+    .header-bottom-button a{
+      background-color: $primary-color;
+      color: $text-white;
+      text-decoration: none;
+      padding: 12px 30px;
+      border-radius: 5px;
+      transition: 0.3s;
+
+      &:hover {
+        opacity: 0.8;
+      }
+    }
+
   }
 }
 
